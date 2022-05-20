@@ -9,10 +9,17 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    /* animation: App-logo-spin infinite 20s linear; */
+    animation: App-logo-spin infinite 20s linear;
   }
 }
+nav {
+  background-color: goldenrod;
+}
 
+nav a {
+  color: crimson;
+  padding: 10px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +42,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-size: 15%; 
+
 }
