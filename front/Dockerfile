@@ -7,7 +7,7 @@ RUN npm run --silent
 COPY . ./
 RUN npm build
 
-# production environment
+# prod env
 FROM nginx:stable-alpine
 COPY --from=builder /app/build /usr/share/nginx/html
 EXPOSE 80
