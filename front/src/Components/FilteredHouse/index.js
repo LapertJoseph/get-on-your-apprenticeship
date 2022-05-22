@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import logo from '../../Blason_Gryffondor.svg.png';
 import axios from "axios";
+import './style.css'
 
 const FilteredHouse = () => {
 
@@ -9,7 +10,6 @@ const FilteredHouse = () => {
 
     const handleFilterdHouse = async (house) => {
         const result = await axios.get(`http://localhost:3000/real/studentAppeal`)
-        console.log(result.data.data);
         const res = result.data.data.filter((e) => e.hogwartsHouse === house)
         setHouse(res);
     }
