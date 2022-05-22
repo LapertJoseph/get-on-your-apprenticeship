@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/front/static/css/main.8bbad05f.chunk.css",
-    "main.js": "/front/static/js/main.d3af6417.chunk.js",
-    "main.js.map": "/front/static/js/main.d3af6417.chunk.js.map",
-    "runtime-main.js": "/front/static/js/runtime-main.16add09c.js",
-    "runtime-main.js.map": "/front/static/js/runtime-main.16add09c.js.map",
-    "static/js/2.b8a58f88.chunk.js": "/front/static/js/2.b8a58f88.chunk.js",
-    "static/js/2.b8a58f88.chunk.js.map": "/front/static/js/2.b8a58f88.chunk.js.map",
-    "index.html": "/front/index.html",
-    "static/css/main.8bbad05f.chunk.css.map": "/front/static/css/main.8bbad05f.chunk.css.map",
-    "static/js/2.b8a58f88.chunk.js.LICENSE.txt": "/front/static/js/2.b8a58f88.chunk.js.LICENSE.txt",
-    "static/media/Blason_Gryffondor.svg.dab706fe.png": "/front/static/media/Blason_Gryffondor.svg.dab706fe.png",
-    "static/media/hogwarts.1cf84289.png": "/front/static/media/hogwarts.1cf84289.png"
+    "main.css": "/get-on-your-apprenticeship/static/css/main.8bbad05f.chunk.css",
+    "main.js": "/get-on-your-apprenticeship/static/js/main.d3af6417.chunk.js",
+    "main.js.map": "/get-on-your-apprenticeship/static/js/main.d3af6417.chunk.js.map",
+    "runtime-main.js": "/get-on-your-apprenticeship/static/js/runtime-main.b46ff758.js",
+    "runtime-main.js.map": "/get-on-your-apprenticeship/static/js/runtime-main.b46ff758.js.map",
+    "static/js/2.b8a58f88.chunk.js": "/get-on-your-apprenticeship/static/js/2.b8a58f88.chunk.js",
+    "static/js/2.b8a58f88.chunk.js.map": "/get-on-your-apprenticeship/static/js/2.b8a58f88.chunk.js.map",
+    "index.html": "/get-on-your-apprenticeship/index.html",
+    "static/css/main.8bbad05f.chunk.css.map": "/get-on-your-apprenticeship/static/css/main.8bbad05f.chunk.css.map",
+    "static/js/2.b8a58f88.chunk.js.LICENSE.txt": "/get-on-your-apprenticeship/static/js/2.b8a58f88.chunk.js.LICENSE.txt",
+    "static/media/Blason_Gryffondor.svg.dab706fe.png": "/get-on-your-apprenticeship/static/media/Blason_Gryffondor.svg.dab706fe.png",
+    "static/media/hogwarts.1cf84289.png": "/get-on-your-apprenticeship/static/media/hogwarts.1cf84289.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.16add09c.js",
+    "static/js/runtime-main.b46ff758.js",
     "static/js/2.b8a58f88.chunk.js",
     "static/css/main.8bbad05f.chunk.css",
     "static/js/main.d3af6417.chunk.js"
