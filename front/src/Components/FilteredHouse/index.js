@@ -18,8 +18,11 @@ const FilteredHouse = () => {
 
     return (
         <div>
-            <img src={logo} className="App-logo" alt="logo" />
+            <img src={logo} className="App-logo" alt="logo" /> <br />
             <button onClick={() => handleFilterdHouse("Gryffindor")}>Gryffondor</button>
+            <button onClick={() => handleFilterdHouse("Slytherin")}>Serpentard</button>
+            <button onClick={() => handleFilterdHouse("Hufflepuff")}>Poufsouffle</button>
+            <button onClick={() => handleFilterdHouse("Ravenclaw")}>Serdaigle</button>
             <ul>
                 {house.map((house, index) => (
                     <li key={`FilteredHouse${index}`}>
