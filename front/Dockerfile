@@ -1,17 +1,14 @@
-# Use the latest image from node 
-FROM node:latest
+# build environment
+FROM node:14.17.0-alpine as builder
+WORKDIR /app
+ENV PATH /app/node_modules/.bin:$PATH
+COPY package*.json ./
+RUN npm run --silent
+COPY . ./
+RUN npm build
 
-# Create a DIR
-RUN mkdir /usr/src/app
-
-# set the working dir for the next commands
-WORKDIR /usr/src/app
-
-# add `/usr/src/app/node_modules/.bin` to $PATH
-ENV PATH /usr/src/app/node_modules/.bin:$PATH
-
-# copy package.json (only) to /usr/src/app/package.json
-COPY package.json /usr/src/app/package.json
-
-# install dependencies in a silent mode
-RUN npm install --silent
+# production environment
+FROM nginx:stable-alpine
+COPY --from=builder /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
